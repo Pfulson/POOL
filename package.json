@@ -1,5 +1,5 @@
 {
-  "name": "geoIpAPI",
+  "name": "GeoIP",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,16 +14,20 @@
     "local-ip": "^2.0.0",
     "mongoose": "^5.10.3",
     "mssql": "^6.2.1",
+    "navigator": "^1.0.1",
+    "node-navigator": "^1.0.1",
     "pm2": "^4.4.1",
     "public-ip": "^4.0.4",
     "sequelize": "^6.3.5",
     "tedious": "^9.2.1",
     "translate": "^1.2.3",
+    "unirest": "^0.6.0",
     "weather-js": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./api/index.js"
   },
   "author": "",
   "license": "ISC"
